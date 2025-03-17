@@ -64,7 +64,7 @@ export default function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             placeholder="Message in 100-150 words"
-            className="w-full p-2 border rounded-lg h-24"
+            className="w-full p-2 border resize-none rounded-lg h-24"
           ></textarea>
         </div>
         <button
